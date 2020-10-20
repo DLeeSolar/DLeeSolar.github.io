@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<!-- Webpage title which will apear on tabs -->
+		<title>DL - Blog-Dev</title>
+		<link href="https://fonts.googleapis.com/css?family=Arimo:400,700" rel='stylesheet' type='text/css'>
+		<!-- Some java script -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script type='text/javascript' src="../js/skel.min.js"></script>
+		<script type='text/javascript' src="../js/skel-panels.min.js"></script>
+		<script type='text/javascript' src="../js/init.js"></script>
+		
+		<!-- Call the css style sheet -->
+		<!--<link rel="stylesheet" href="../css/style.css" />-->
+		<!--<link rel="stylesheet" href="../css/style-desktop.css" />-->
+		<noscript>
+			<link rel="stylesheet" href="../css/style.css" />
+		</noscript>
+	</head>
+	<body>	<!-- Use <body class="homepage"> to reproduce homepage design -->
+		<!-- Some java script -->
+		<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script type='text/javascript' src="../js/skel.min.js"></script>
+		<script type='text/javascript' src="../js/skel-panels.min.js"></script>
+		<script type='text/javascript' src="../js/init.js"></script> -->
+
+		<!-- Header -->
+		<div id="header">
+			<div class="container"> 
+				
+				<!--
+				Logo. Here you can put your name and your research group
+				-->
+				<div id="logo">
+					<h1><a href="#">Danny Lee</a></h1>
+					<span><h2>Solar Physics</h2></span>
+				</div>
+				
+				<!-- 
+				Navigation. Here are the links to your other web pages. The 'active' 
+				class shows which website the reader is currently on.
+				-->
+				<nav id="nav">
+					<ul>
+						<li><a href="../index.html">Homepage</a></li>
+						<!--- <li><a href="../outreach.html">Outreach</a></li> --->
+						<li class="active"><a href="../blog/index.html">Blog</a></li>
+						<li><a href="../research.html">Research</a></li>
+						<!--- <li><a href="../cv.pdf">CV</a></li> --->	
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<!-- Main -->
+		<div id="main">
+			<div class="container">
+				<div class="row"> 		
+					<!-- 
+					Main body of the index page. Here you can include your research interests or any 
+					longer text that you would like to display on your homepage.
+					-->
+					<div id="content" class="8u skel-cell-important">
+						<!-- Start of the added blog configuration -->
+						<!-- dl-content defines a container for fixed size centered content, and is wrapped around the whole page content, except for the footer -->
+						<div class="dl-content" style="max-width:1400px">
+
+							<!-- Header -->
+							<!--<header class="dl-container dl-center dl-padding-32"> 
+  								<h1><b>MY BLOG</b></h1>
+  								<p>Welcome to the blog of <span class="dl-tag">unknown</span></p>
+							</header>-->
+
+							<!-- Grid -->
+							<div class="dl-row">
+
+								<!-- Blog entries -->
+
+								<!-- Blog entry -->
+  								<div class="dl-card-4 dl-margin dl-white dl-border">
+    								<img src="images/193_0000_crop.png" alt="Sun1" style="width:100%">
+    								<div class="dl-container">
+      									<h3><b>TITLE HEADING</b></h3>
+      									<h5>Title description, <span class="dl-opacity">April 7, 2014</span></h5>
+    								</div>
+									<div class="dl-container">
+      									<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      									<div class="dl-row">
+        									<div class="dl-col m8 s12">
+        										<p><button class="dl-button dl-padding-large dl-white dl-border"><b>READ MORE »</b></button></p>
+        									</div>	
+        									<!--<div class="dl-col m4 dl-hide-small">
+          										<p><span class="dl-padding-large dl-right"><b>Comments  </b> <span class="dl-tag">0</span></span></p>
+        									</div>-->
+      									</div>
+    								</div>
+  								</div>
+  									
+								<!-- Blog entry -->
+  								<div class="dl-card-4 dl-margin dl-white dl-border">
+  									<img src="images/193_0000_crop.png" alt="Sun1" style="width:100%">
+    								<div class="dl-container">
+      									<h3><b>BLOG ENTRY</b></h3>
+      									<h5>Title description, <span class="dl-opacity">April 2, 2014</span></h5>
+    								</div>
+    								<div class="dl-container">
+      									<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      									<div class="dl-row">
+        									<div class="dl-col m8 s12">
+          										<p><button class="dl-button dl-padding-large dl-white dl-border"><b>READ MORE »</b></button></p>
+        									</div>
+        									<div class="dl-col m4 dl-hide-small">
+          										<p><span class="dl-padding-large dl-right"><b>Comments  </b> <span class="dl-badge">2</span></span></p>
+        									</div>
+      									</div>
+    								</div>
+  								</div>
+								<!-- END BLOG ENTRIES -->
+							</div>
+						</div>
+					</div>
+					
+					<div id="sidebar" class="4u">
+						<section>
+							<header>
+								<h2>Recent Activity</h2>
+							</header>
+							<ul class="style">
+								<!-- Sidebar content -->
+								<li>
+									<p class="posted">Feb 2020</p>
+									<a href\="" style="text-decoration: none"><p class="paper-title">Started a webpage on GitHub.</p></a>
+									<!-- <p class="authors"></p>-->
+								</li>
+								<li>
+									<p class="posted">May 2018</p>
+									<a href="" style="text-decoration: none"><p class="paper-title">Started new Job.</p></a>
+									<!--<p class="authors"></p>-->
+								</li>
+							</ul>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 
+		Footer. This is used to display links to eternal websides. For exmaple, links back to the ---, 
+		your research group or resources such as GitHub or bitbucket.
+		-->
+		<div id="featured">
+			<div class="container">
+				<div class="row">
+					<div class="3u">
+						<a href="" style="text-decoration: none"><h2></h2></a>
+						<p></p>
+					</div>
+					<div class="3u">
+						<a href="" style="text-decoration: none"><h2></h2></a>
+						<p></p>
+					</div>
+					<div class="3u">
+						<a href="" style="text-decoration: none"><h2></h2></a>
+						<p></p>
+					</div>
+					<div class="3u">
+						<a href="https://github.com/DLeeSolar" style="text-decoration: none"><h2>GitHub</h2></a>
+						<p>I mess around with various languages from time to time. Check my GitHub.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 
+		Copyright. Here is the license information for the website. DO NOT CHANGE THIS!
+		-->
+		<div id="copyright">
+			<div class="container">
+				<a href="http://templated.co">This template is a modification licensed under the Creative Commons Attribution 3.0 license.</a>
+			</div>
+		</div>
+		
+	</body>
+</html>

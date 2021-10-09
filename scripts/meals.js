@@ -58,6 +58,7 @@ $(function() {
             //"Mangalorean Tomato and Beef Curry",
             "Mexican Birria with Chipotle Salsa",
             "Penne Arabiatta",
+            "Pork Adobo",
             "Pork Stir Fry",
             "Pork Vindaloo",
             "Roast Dinner",
